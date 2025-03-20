@@ -13,7 +13,13 @@ bool is_user_present(string email);
 int main()
 {
     string user_type;
-    cout << "are you a user or admin? (user/admin): ";
+    cout << "========================================\n" ;
+    cout << "  Welcome to Online Pizza restaurants!!\n" ;
+    cout << "========================================\n" ;
+    cout << "Can you kindly Fill this Information for\n" ;  
+    cout << "        Further Procedation\n" ;
+    cout << "========================================\n" ;
+    cout << "Are You a User or Admin? (user/admin): ";
     cin >> user_type;
 
     int choice;
